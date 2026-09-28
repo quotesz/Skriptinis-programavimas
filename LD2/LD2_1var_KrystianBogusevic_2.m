@@ -1,5 +1,7 @@
-A = input('Iveskite vektoriu A: ');
-B = [A(10:end) A(1:9)];
+A = input('Įveskite vektorių A: ');
 
-disp('vektorius B yra:')
+B = [A(10:end), A(1:9)];
+
+disp('vektorius B yra:');
+
 disp(B)
